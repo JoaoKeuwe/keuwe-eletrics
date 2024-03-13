@@ -32,3 +32,36 @@
   margin-top: 1rem;
   line-height: 30px;
 }
+
+.card-big-numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  width: 20rem;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 5rem;
+  border: 3px solid rgb(7, 7, 7);
+  -webkit-box-shadow: 7px 6px 18px -3px rgba(0, 168, 168, 1);
+  -moz-box-shadow: 7px 6px 18px -3px rgba(0, 168, 168, 1);
+  box-shadow: 7px 6px 18px -3px rgba(0, 168, 168, 1);
+}
+
+.card-big-numbers h2 {
+  font-size: 35px;
+  font-family: "Genos", sans-serif;
+  font-weight: bold;
+}
+
+.card-big-numbers p {
+  font-size: "Roboto", sans-serif;
+  font-weight: 600;
+  color: rgb(97, 96, 96);
+  font-size: 20px;
+}
+.big-numbers-card {
+  display: flex;
+  gap: 2rem;
+}

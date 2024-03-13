@@ -2,7 +2,11 @@ import "./styles.css";
 import arrow from "../../assets/icons/arrow.png";
 import car from "../../assets/images/car.png";
 import Header from "../../components/header";
-import { CardStepByStep, CardCharging } from "../../components/Cards/index";
+import {
+  CardStepByStep,
+  CardCharging,
+  CardBigNumbers,
+} from "../../components/Cards/index";
 import pictures from "../../assets/icons/pictures.svg";
 import hour from "../../assets/icons/hour.svg";
 import watch from "../../assets/icons/pocket-watch.svg";
@@ -49,6 +53,7 @@ const Home = () => {
           </div>
         </section>
       </main>
+
       <section className="how-works">
         <div>
           <img className="image-charging" src={charging} alt="" />
@@ -72,7 +77,26 @@ const Home = () => {
           />
         </section>
       </section>
-      <section>s</section>
+
+      <section className="big-numbers-container">
+        <section className="big-numbers-content">
+          <h2>GRANDES NÚMEROS</h2>
+          <p>ACOMPANHE ALGUNS DOS NOSSOS BIG NUMBERS</p>
+        </section>
+        <div className="big-numbers-card">
+          <CardBigNumbers image={bags} title="25k" text="Clientes contentes" />
+          <CardBigNumbers
+            image={graphic}
+            title="85k"
+            text="menos de emissão de carbono(kg)"
+          />
+          <CardBigNumbers
+            image={carIcon}
+            title="80+"
+            text="Opções de veículos"
+          />
+        </div>
+      </section>
       <section>s</section>
       <footer>s</footer>
     </main>

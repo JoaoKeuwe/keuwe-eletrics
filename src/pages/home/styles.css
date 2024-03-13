@@ -88,3 +88,31 @@
 .image-charging {
   border-radius: 20px;
 }
+
+/* big number  */
+
+.big-numbers-container {
+  background-color: #13201f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  center;
+  padding: 10rem;
+}
+
+.big-numbers-cards {
+  display: flex;
+}
+
+.big-numbers-content h2{
+font-size: 60px;
+font-family: "Genos", sans-serif;
+color: white;
+}
+
+.big-numbers-content p {
+  text-align: center;
+  color: white;
+  font-family: "Genos", sans-serif;
+  font-size: 20px;
+}
