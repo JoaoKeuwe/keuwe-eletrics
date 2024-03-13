@@ -2,6 +2,10 @@
   height: 5rem;
 }
 
+.header-content a {
+  color: black;
+}
+
 .button-login {
   width: 97px;
   height: 36px;

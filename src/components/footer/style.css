@@ -1,0 +1,28 @@
+.footer-container {
+ background-color: #161E21;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.navigation-footer {
+  display: flex;
+  gap: 2rem;
+}
+
+.navigation-footer a {
+  color: white;
+  font-family: "Anybody", sans-serif;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer-content {
+  display: flex;
+}

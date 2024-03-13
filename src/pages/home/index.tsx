@@ -1,7 +1,6 @@
 import "./styles.css";
-import arrow from "../../assets/icons/arrow.png";
-import car from "../../assets/images/car.png";
 import Header from "../../components/header";
+import Footer from "../../components/footer";
 import {
   CardStepByStep,
   CardCharging,
@@ -21,12 +20,13 @@ import arrowIcon from "../../assets/icons/arrow-white.svg";
 import appStore from "../../assets/images/appstore.png";
 import googlePlay from "../../assets/images/googleplay.png";
 import mobile from "../../assets/images/mobile.png";
+import arrow from "../../assets/icons/arrow.png";
+import car from "../../assets/images/car.png";
 
 const Home = () => {
   return (
     <main>
       <Header />
-
       <section className="hero">
         <div className="hero-content">
           <h2>
@@ -153,8 +153,7 @@ turn heads everywhere you go"
           </div>
         </div>
       </section>
-
-      <footer>s</footer>
+      <Footer />
     </main>
   );
 };
