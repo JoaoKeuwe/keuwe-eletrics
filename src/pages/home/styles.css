@@ -42,7 +42,7 @@
 }
 
 .main-content {
-  padding: 0 10rem;
+  padding: 0 7rem;
 }
 
 /* step by step  */
@@ -75,7 +75,7 @@
 .how-works {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 10rem;
+  padding: 4rem 10rem;
   margin-top: 10em;
 }
 
@@ -97,7 +97,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10rem;
+  padding: 5rem 10rem;
 }
 
 .big-numbers-cards {
@@ -120,7 +120,7 @@
 /* card cars  */
 
 .card-cars-section {
-  padding: 10rem;
+  padding: 5rem 10rem;
 }
 
 .location {
@@ -135,9 +135,8 @@
 }
 
 .button-cars-container {
-  display: flex;;
+  display: flex;
   justify-content: center;
-  ;
 }
 
 .button-cars-container button {
@@ -149,7 +148,33 @@
   font-size: 18px;
   height: 2.5rem;
   color: white;
-  background-color: #00A8A8;
+  background-color: #00a8a8;
   border-radius: 10px;
   font-family: "Anybody", sans-serif;
+}
+
+/* app container  */
+
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 5rem 10rem;
+}
+
+.app-container h2 {
+  font-size: 50px;
+  font-family: "Anybody", sans-serif;
+}
+
+.app-container p {
+  font-size: 25px;
+  margin-top: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.app-images {
+  margin-top: 5rem;
+  display: flex;
+  gap: 4rem;
 }

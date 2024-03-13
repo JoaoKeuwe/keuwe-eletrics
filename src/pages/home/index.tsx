@@ -17,7 +17,11 @@ import graphic from "../../assets/icons/graphic.svg";
 import bag from "../../assets/icons/bag.svg";
 import bags from "../../assets/icons/bags.svg";
 import mustang from "../../assets/images/mustang.png";
-import arrowIcon from '../../assets/icons/arrow-white.svg'
+import arrowIcon from "../../assets/icons/arrow-white.svg";
+import appStore from "../../assets/images/appstore.png";
+import googlePlay from "../../assets/images/googleplay.png";
+import mobile from "../../assets/images/mobile.png";
+
 const Home = () => {
   return (
     <main>
@@ -130,6 +134,26 @@ turn heads everywhere you go"
           </button>
         </div>
       </section>
+
+      <section className="app-container">
+        <div>
+          <img src={mobile} alt="" />
+        </div>
+        <div>
+          <h2>BAIXE NOSSO APLICATIVO</h2>
+          <p>
+            Lorem Ipsumis simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s
+          </p>
+          <div className="app-images">
+            <img src={appStore} alt="" />
+            <img src={googlePlay} alt="" />
+          </div>
+        </div>
+      </section>
+
       <footer>s</footer>
     </main>
   );
