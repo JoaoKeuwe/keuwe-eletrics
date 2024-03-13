@@ -1,0 +1,27 @@
+.header-content {
+  height: 5rem;
+}
+
+.button-login {
+  width: 97px;
+  height: 36px;
+  background-color: #00a8a8;
+  color: white;
+  border-radius: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  border: 1px solid black;
+  padding: 1rem 4rem;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  font-family: "Anybody", sans-serif;
+}

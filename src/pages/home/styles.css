@@ -1,0 +1,42 @@
+.hero {
+      background-color: #161E21;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    align-items: center;
+}
+
+.hero h2 {
+  color: white;
+  font-size: 80px;
+  font-family: "Genos", sans-serif;
+}
+.hero p{
+  color: white;
+  font-size: 25px;
+  font-family: "Anybody", sans-serif;
+}
+
+.hero button {
+  width: 200px;
+  height: 56px;
+  background-color: #00A8A8;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 10rem;
+}
+
+.image-hero {
+  display: flex;
+  justify-content: flex-end;
+}
