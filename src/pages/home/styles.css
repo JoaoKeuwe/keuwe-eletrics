@@ -1,9 +1,9 @@
 .hero {
-      background-color: #161E21;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: start;
-    align-items: center;
+  background-color: #161e21;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: start;
+  align-items: center;
 }
 
 .hero h2 {
@@ -11,7 +11,7 @@
   font-size: 80px;
   font-family: "Genos", sans-serif;
 }
-.hero p{
+.hero p {
   color: white;
   font-size: 25px;
   font-family: "Anybody", sans-serif;
@@ -20,7 +20,7 @@
 .hero button {
   width: 200px;
   height: 56px;
-  background-color: #00A8A8;
+  background-color: #00a8a8;
   color: white;
   border-radius: 10px;
   display: flex;
@@ -39,4 +39,52 @@
 .image-hero {
   display: flex;
   justify-content: flex-end;
+}
+
+.main-content {
+  padding: 0 5rem;
+}
+
+/* step by step  */
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.steps h2 {
+  font-family: "Genos", sans-serif;
+  font-size: 60px;
+}
+
+.subtitle {
+  font-family: "Genos", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.steps-cards {
+  display: flex;
+}
+
+/* how works  */
+
+.how-works {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem;
+  margin-top: 10em;
+}
+
+.cards-how-works {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.image-charging {
+  border-radius: 20px;
 }

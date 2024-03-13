@@ -1,0 +1,34 @@
+.card-step {
+  width: 20rem;
+  margin-top: 5rem;
+  padding-right: 2rem;
+}
+
+.card-step p {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-step h3 {
+  font-size: 25px;
+  font-family: "Anybody", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.card-step img {
+  margin-bottom: 1rem;
+}
+
+/* Card charging  */
+
+.card-charging {
+  width: 20rem;
+}
+
+.card-charging p {
+  font-size: 20px;
+  font-family: "Anybody", sans-serif;
+  font-weight: 600;
+  margin-top: 1rem;
+  line-height: 30px;
+}
