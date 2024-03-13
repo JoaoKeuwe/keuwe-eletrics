@@ -6,6 +6,7 @@ import {
   CardStepByStep,
   CardCharging,
   CardBigNumbers,
+  CardCars,
 } from "../../components/Cards/index";
 import pictures from "../../assets/icons/pictures.svg";
 import hour from "../../assets/icons/hour.svg";
@@ -15,7 +16,8 @@ import carIcon from "../../assets/icons/car.svg";
 import graphic from "../../assets/icons/graphic.svg";
 import bag from "../../assets/icons/bag.svg";
 import bags from "../../assets/icons/bags.svg";
-
+import mustang from "../../assets/images/mustang.png";
+import arrowIcon from '../../assets/icons/arrow-white.svg'
 const Home = () => {
   return (
     <main>
@@ -97,7 +99,37 @@ const Home = () => {
           />
         </div>
       </section>
-      <section>s</section>
+
+      <section className="card-cars-section">
+        <div>
+          <h2 className="location">LOCAÇÕES MAIS POPULARES</h2>
+        </div>
+        <section className="card-cars-container">
+          <CardCars
+            image={mustang}
+            title="FORD MUSTANG MACH-E"
+            text="The Mach-E is so stylish you´ll
+turn heads everywhere you go"
+          />
+          <CardCars
+            image={mustang}
+            title="FORD MUSTANG MACH-E"
+            text="The Mach-E is so stylish you´ll
+turn heads everywhere you go"
+          />
+          <CardCars
+            image={mustang}
+            title="FORD MUSTANG MACH-E"
+            text="The Mach-E is so stylish you´ll
+turn heads everywhere you go"
+          />
+        </section>
+        <div className="button-cars-container">
+          <button>
+            ALUGAR <img src={arrowIcon} alt="" />
+          </button>
+        </div>
+      </section>
       <footer>s</footer>
     </main>
   );

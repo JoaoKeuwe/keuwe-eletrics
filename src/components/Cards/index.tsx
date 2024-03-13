@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import arrowIcon from "../../assets/icons/arrow-right.svg";
 
 interface CardStepByStepProps {
   image: string;
@@ -16,6 +17,7 @@ interface CardBigNumbers {
   text: string;
   title: string;
 }
+
 export const CardStepByStep: React.FC<CardStepByStepProps> = ({
   image,
   title,
@@ -51,6 +53,19 @@ export const CardBigNumbers: React.FC<CardBigNumbers> = ({
       <img src={image} alt="" />
       <h2>{title}</h2>
       <p>{text}</p>
+    </div>
+  );
+};
+
+export const CardCars: React.FC<CardBigNumbers> = ({ image, title, text }) => {
+  return (
+    <div className="card-cars">
+      <img src={image} alt="" />
+      <h2>{title}</h2>
+      <p>{text}</p>
+      <button>
+        MAIS IFORMAÇÕES <img src={arrowIcon} alt="" />
+      </button>
     </div>
   );
 };

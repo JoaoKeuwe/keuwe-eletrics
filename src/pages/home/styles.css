@@ -42,7 +42,7 @@
 }
 
 .main-content {
-  padding: 0 5rem;
+  padding: 0 10rem;
 }
 
 /* step by step  */
@@ -75,7 +75,7 @@
 .how-works {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 5rem;
+  padding: 10rem;
   margin-top: 10em;
 }
 
@@ -96,7 +96,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:  center;
+  align-items: center;
   padding: 10rem;
 }
 
@@ -104,10 +104,10 @@
   display: flex;
 }
 
-.big-numbers-content h2{
-font-size: 60px;
-font-family: "Genos", sans-serif;
-color: white;
+.big-numbers-content h2 {
+  font-size: 60px;
+  font-family: "Genos", sans-serif;
+  color: white;
 }
 
 .big-numbers-content p {
@@ -115,4 +115,41 @@ color: white;
   color: white;
   font-family: "Genos", sans-serif;
   font-size: 20px;
+}
+
+/* card cars  */
+
+.card-cars-section {
+  padding: 10rem;
+}
+
+.location {
+  font-family: "Anybody", sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+.card-cars-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-cars-container {
+  display: flex;;
+  justify-content: center;
+  ;
+}
+
+.button-cars-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 10rem;
+  font-size: 18px;
+  height: 2.5rem;
+  color: white;
+  background-color: #00A8A8;
+  border-radius: 10px;
+  font-family: "Anybody", sans-serif;
 }
