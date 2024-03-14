@@ -3,6 +3,7 @@ import App from "./App.tsx";
 import "./index.css";
 import Home from "./pages/home";
 import AboutUs from "./pages/aboutUs";
+import ContactForm from "./pages/contactForm/index.tsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/aboutus",
     element: <AboutUs />,
+  },
+  {
+    path: "/contato",
+    element: <ContactForm />,
   },
 ]);
 

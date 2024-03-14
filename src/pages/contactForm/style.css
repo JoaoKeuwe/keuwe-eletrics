@@ -1,0 +1,69 @@
+:root {
+  --main-bg-color: #161E21;
+  --text-color: white;
+  --accent-color: #00a8a8;
+  --font-genos: "Genos", sans-serif;
+}
+
+/* Hero section */
+.hero-form {
+  background-color: var(--main-bg-color);
+  padding: 5rem 10rem;
+}
+
+.hero-content-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.hero-content-form h2 {
+  color: var(--text-color);
+  font-size: 75px;
+  font-family: var(--font-genos);
+}
+
+/* Form styling */
+.forms {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 10rem;
+}
+
+.forms h2 {
+  margin-bottom: 3rem;
+  font-size: 50px;
+  font-family: var(--font-genos);
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.input {
+  background-color: rgb(255, 255, 255);
+  width: 25vw;
+  height: 2rem;
+  border-radius: 10px;
+  border: 1px solid #c9c9c9;
+  padding-left: 1rem;
+}
+
+.input-form textarea {
+  border: 1px solid #c9c9c9;
+  resize: none;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.input-form button {
+  background-color: var(--accent-color);
+  height: 2.5rem;
+  color: white;
+  border-radius: 10px;
+}

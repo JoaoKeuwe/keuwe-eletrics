@@ -33,7 +33,7 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <main>
+      <main className="benefics-section">
         <h2 className="title-benefics">O que nós oferecemos</h2>
         <div className="cards-container-charging">
           <div className="container-charging">

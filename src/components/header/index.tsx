@@ -9,13 +9,13 @@ const Header = () => {
         <img src={logo} alt="" />
         <ul>
           <li>
-            <a href="">HOME</a>
+            <a href="/">HOME</a>
           </li>
           <li>
-            <a href="">SOBRE</a>{" "}
+            <a href="/aboutUs">SOBRE</a>{" "}
           </li>
           <li>
-            <a href="">CONTATO</a>{" "}
+            <a href="/contato">CONTATO</a>{" "}
           </li>
           <li style={{ display: "flex", alignItems: "center" }}>
             <img style={{ marginRight: "20px" }} src={cart} alt="cart" />
