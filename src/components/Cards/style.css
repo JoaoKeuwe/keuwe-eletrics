@@ -150,7 +150,6 @@
 .contact-us-container h3 {
   color: white;
   font-family: "Genos", sans-serif;
-
 }
 
 .span-contact {
@@ -159,7 +158,7 @@
 
 .contact-content {
   font-size: 30px;
-    margin-left: 5rem;
+  margin-left: 5rem;
 }
 
 .contact-content button {
@@ -167,10 +166,85 @@
   height: 2.5rem;
   margin-top: 2rem;
   border-radius: 10px;
-  background-color: #00A8A8;
+  background-color: #00a8a8;
   color: white;
   font-family: "Genos", sans-serif;
 }
 
+/* responsivo  */
 
+@media (max-width: 1700px) {
+  .card-step {
+    width: 10rem;
+  }
+  .card-big-numbers {
+    margin: 1rem;
+  }
+  .card-cars {
+    margin: 1rem;
+  }
+}
 
+@media (max-width: 1450px) {
+  .card-step {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .card-step h3 {
+    font-size: 20px;
+  }
+
+  .card-step p {
+    font-size: 15px;
+  }
+
+  .steps h2 {
+    font-size: 50px;
+  }
+
+  .card-big-numbers {
+    width: 13rem;
+  }
+  .card-cars {
+    width: 13rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card-charging {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .card-charging p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .card-charging img {
+    width: 20%;
+    height: auto;
+  }
+
+  .cards-how-works {
+    justify-items: center;
+  }
+
+  .steps-cards {
+    flex-direction: column;
+  }
+
+  .big-numbers-card {
+    flex-direction: column;
+  }
+
+  .card-cars-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

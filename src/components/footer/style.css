@@ -32,3 +32,10 @@
 .footer-content {
   display: flex;
 }
+
+@media(max-width: 1000px) {
+  .footer-container{
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

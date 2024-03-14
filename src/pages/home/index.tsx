@@ -61,7 +61,7 @@ const Home = () => {
       </main>
 
       <section className="how-works">
-        <div>
+        <div className="image-charging-container">
           <img className="image-charging" src={charging} alt="" />
         </div>
         <section className="cards-how-works">
@@ -136,8 +136,8 @@ turn heads everywhere you go"
       </section>
 
       <section className="app-container">
-        <div>
-          <img src={mobile} alt="" />
+        <div className="mobile-container">
+          <img className="image-mobile" src={mobile} alt="" />
         </div>
         <div>
           <h2>BAIXE NOSSO APLICATIVO</h2>
