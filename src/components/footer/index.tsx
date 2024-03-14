@@ -10,9 +10,9 @@ const Footer = () => {
     <footer className="footer-container">
       <img src={logo} alt="" />
       <div className="navigation-footer">
-        <a href="">HOME</a>
-        <a href="">SOBRE</a>
-        <a href="">CONTATO</a>
+        <a href="/">HOME</a>
+        <a href="/aboutUs">SOBRE</a>
+        <a href="/contato">CONTATO</a>
       </div>
       <div>
         <ul className="social-icons">
