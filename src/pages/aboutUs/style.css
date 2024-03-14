@@ -3,11 +3,13 @@
   align-items: center;
   background-color: #161e21;
   padding: 10rem;
+  justify-content: center;
 }
 
 .about-section h2 {
-  font-size: 60px;
+  font-size: 65px;
   color: white;
+  font-family: "Genos", sans-serif;
 }
 
 .about-section img {
@@ -38,11 +40,17 @@
   margin-bottom: 3rem;
 }
 
-.container-list p{
- font-size: 20px;
- margin-left: 1rem;
- font-family: "Roboto", sans-serif;
+.title-benefics {
+  font-size: 40px;
+  text-align: center;
+  padding: 3rem 5rem;
+  font-family: "Roboto", sans-serif;
+}
 
+.container-list p {
+  font-size: 20px;
+  margin-left: 1rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .list-itens {
@@ -62,28 +70,41 @@
   display: flex;
   justify-content: center;
   align-items: center;
-   padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 .container-list-2 {
   display: flex;
   align-items: center;
   margin-bottom: 3rem;
- 
-  
 }
 
 .list-itens-2 {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
-.container-list-2 p{
- font-size: 20px;
- margin-left: 1rem;
- font-family: "Roboto", sans-serif;
-
-
+.container-list-2 p {
+  font-size: 20px;
+  margin-left: 1rem;
+  font-family: "Roboto", sans-serif;
 }
 
+/* assessments  */
 
+.assessments-content {
+  display: flex;
+  padding: 6rem 10rem;
+  justify-content: space-between;
+}
 
+.assessment-container {
+  background-color: #161e21;
+}
+
+.assessment-title {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 2rem;
+}

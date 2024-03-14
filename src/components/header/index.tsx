@@ -12,7 +12,10 @@ const Header = () => {
             <a href="">HOME</a>
           </li>
           <li>
-            <a href="">ABOUT</a>{" "}
+            <a href="">SOBRE</a>{" "}
+          </li>
+          <li>
+            <a href="">CONTATO</a>{" "}
           </li>
           <li style={{ display: "flex", alignItems: "center" }}>
             <img style={{ marginRight: "20px" }} src={cart} alt="cart" />

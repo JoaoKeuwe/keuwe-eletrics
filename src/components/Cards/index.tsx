@@ -18,6 +18,13 @@ interface CardBigNumbers {
   title: string;
 }
 
+interface CardAssessment {
+  image: string;
+  name: string;
+  assessment: string;
+  title: string;
+}
+
 export const CardStepByStep: React.FC<CardStepByStepProps> = ({
   image,
   title,
@@ -66,6 +73,22 @@ export const CardCars: React.FC<CardBigNumbers> = ({ image, title, text }) => {
       <button>
         MAIS IFORMAÇÕES <img src={arrowIcon} alt="" />
       </button>
+    </div>
+  );
+};
+
+export const CardAssessment: React.FC<CardAssessment> = ({
+  image,
+  name,
+  assessment,
+  title,
+}) => {
+  return (
+    <div className="card-assessment">
+      <img src={image} alt="" />
+      <h2>{name}</h2>
+      <h3>{title}</h3>
+      <p>{assessment}</p>
     </div>
   );
 };

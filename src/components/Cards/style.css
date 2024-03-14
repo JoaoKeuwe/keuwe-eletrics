@@ -106,3 +106,72 @@
   font-size: 20px;
   font-family: "Anybody", sans-serif;
 }
+
+/* assessment  */
+
+.card-assessment {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 23rem;
+  height: 22rem;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgba(100, 96, 96, 0.735);
+  border-radius: 15px;
+}
+.card-assessment p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card-assessment h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.card-assessment h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+/* contactus  */
+.contact-us-container {
+  background-image: url(../../assets/images/porsche.png);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.contact-us-container h3 {
+  color: white;
+  font-family: "Genos", sans-serif;
+
+}
+
+.span-contact {
+  color: #00a8a8;
+}
+
+.contact-content {
+  font-size: 30px;
+    margin-left: 5rem;
+}
+
+.contact-content button {
+  width: 17rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: #00A8A8;
+  color: white;
+  font-family: "Genos", sans-serif;
+  cursor: pointer;
+}
+
+
+
