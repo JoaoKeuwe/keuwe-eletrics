@@ -37,3 +37,9 @@
   align-items: center;
   font-family: var(--font-anybody);
 }
+
+@media(max-width: 1000px) {
+ .header-content{
+  display: none;
+ }
+}

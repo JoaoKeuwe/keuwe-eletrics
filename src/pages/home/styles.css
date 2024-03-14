@@ -15,14 +15,20 @@
   align-items: center;
 }
 
-.hero h2 {
+.menu {
+  display: none;
+}
+
+.hero h2, .hero p {
   color: var(--text-color);
+}
+
+.hero h2 {
   font-size: 80px;
   font-family: var(--font-genos);
 }
 
 .hero p {
-  color: var(--text-color);
   font-size: 25px;
   font-family: var(--font-anybody);
 }
@@ -63,13 +69,15 @@
   align-items: baseline;
 }
 
-.steps h2 {
+.steps h2, .subtitle {
   font-family: var(--font-genos);
+}
+
+.steps h2 {
   font-size: 60px;
 }
 
 .subtitle {
-  font-family: var(--font-genos);
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -114,16 +122,17 @@
   display: flex;
 }
 
-.big-numbers-content h2 {
-  font-size: 60px;
+.big-numbers-content h2, .big-numbers-content p {
   font-family: var(--font-genos);
   color: var(--text-color);
 }
 
+.big-numbers-content h2 {
+  font-size: 60px;
+}
+
 .big-numbers-content p {
   text-align: center;
-  color: var(--text-color);
-  font-family: var(--font-genos);
   font-size: 20px;
 }
 
@@ -208,6 +217,7 @@
     flex-direction: column;
     align-items: center;
   }
+
   .how-works {
     grid-template-columns: 1fr;
     padding: 1rem;
@@ -226,8 +236,15 @@
 }
 
 @media (max-width: 1000px) {
+  .menu {
+    display: block;
+  }
+  .header {
+    display: none;
+  }
   .hero {
     grid-template-columns: 1fr;
+    padding-top: 4rem;
   }
 
   .hero-content {

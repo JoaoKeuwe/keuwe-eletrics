@@ -22,11 +22,18 @@ import googlePlay from "../../assets/images/googleplay.png";
 import mobile from "../../assets/images/mobile.png";
 import arrow from "../../assets/icons/arrow.png";
 import car from "../../assets/images/car.png";
+import Menu from '../../components/menu'
 
 const Home = () => {
+  
   return (
     <main>
-      <Header />
+      <div className="header">
+        <Header />
+      </div>
+      <div className="menu">
+        <Menu />
+      </div>
       <section className="hero">
         <div className="hero-content">
           <h2>
