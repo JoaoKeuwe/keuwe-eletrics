@@ -126,3 +126,32 @@
 .list-itens-2 {
   padding-top: 2rem;
 }
+
+@media(max-width:1000px) {
+.about-us-image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-section {
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.about-section h2{
+  font-size: 35px;
+}
+.assessment-title{
+  font-size: 30px;
+}
+
+.contact-us-container{
+  padding: 1rem;
+}
+
+.charging {
+  width: 300px;
+}
+
+}

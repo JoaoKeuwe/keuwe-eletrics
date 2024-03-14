@@ -247,4 +247,27 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .container-charging {
+    flex-direction: column;
+  }
+  .container-charging-2 {
+    flex-direction: column !important;
+  }
+
+  .card-assessment {
+    width: 15rem;
+    height: 27rem;
+  }
+  .assessments-content {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-us-container {
+    padding: 5rem 1rem;
+  }
 }

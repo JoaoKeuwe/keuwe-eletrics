@@ -1,5 +1,6 @@
 import Header from "../../components/header";
 import Footer from "../../components/footer";
+import Menu from "../../components/menu";
 import { CardAssessment } from "../../components/Cards";
 import image from "../../assets/images/Design sem nome (4) 1.png";
 import charging from "../../assets/images/charginCar.png";
@@ -19,11 +20,14 @@ import "./style.css";
 const AboutUs = () => {
   return (
     <main>
-      <header>
+      <header className="header">
         <Header />
       </header>
+      <div className="menu">
+        <Menu />
+      </div>
       <section className="about-section">
-        <div>
+        <div className="about-us-image">
           <img src={image} alt="" />
         </div>
         <div>
