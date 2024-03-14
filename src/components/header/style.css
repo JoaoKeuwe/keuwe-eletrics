@@ -1,16 +1,24 @@
+:root {
+  --header-bg-color: white;
+  --header-text-color: black;
+  --header-button-bg-color: #00a8a8;
+  --header-button-text-color: white;
+  --font-anybody: "Anybody", sans-serif;
+}
+
 .header-content {
   height: 5rem;
 }
 
 .header-content a {
-  color: black;
+  color: var(--header-text-color);
 }
 
 .button-login {
   width: 97px;
   height: 36px;
-  background-color: #00a8a8;
-  color: white;
+  background-color: var(--header-button-bg-color);
+  color: var(--header-button-text-color);
   border-radius: 10px;
 }
 
@@ -20,11 +28,12 @@
   justify-content: space-between;
   height: 3rem;
   padding: 1rem 10rem;
+  background-color: var(--header-bg-color);
 }
 
 .navbar ul {
   display: flex;
   gap: 3rem;
   align-items: center;
-  font-family: "Anybody", sans-serif;
+  font-family: var(--font-anybody);
 }

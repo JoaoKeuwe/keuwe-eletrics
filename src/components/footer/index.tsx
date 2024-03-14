@@ -11,7 +11,8 @@ const Footer = () => {
       <img src={logo} alt="" />
       <div className="navigation-footer">
         <a href="">HOME</a>
-        <a href="">ABOUT-US</a>
+        <a href="">SOBRE</a>
+        <a href="">CONTATO</a>
       </div>
       <div>
         <ul className="social-icons">

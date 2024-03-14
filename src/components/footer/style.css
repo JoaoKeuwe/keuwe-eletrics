@@ -1,9 +1,15 @@
+:root {
+  --footer-bg-color: #161E21;
+  --footer-text-color: white;
+  --font-anybody: "Anybody", sans-serif;
+}
+
 .footer-container {
- background-color: #161E21;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 10rem;
+  background-color: var(--footer-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem;
 }
 
 .navigation-footer {
@@ -12,8 +18,8 @@
 }
 
 .navigation-footer a {
-  color: white;
-  font-family: "Anybody", sans-serif;
+  color: var(--footer-text-color);
+  font-family: var(--font-anybody);
 }
 
 .social-icons {

@@ -1,5 +1,14 @@
+:root {
+  --primary-color: #00a8a8;
+  --secondary-color: #161e21;
+  --text-color: white;
+  --font-genos: "Genos", sans-serif;
+  --font-anybody: "Anybody", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
 .hero {
-  background-color: #161e21;
+  background-color: var(--secondary-color);
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: start;
@@ -7,21 +16,22 @@
 }
 
 .hero h2 {
-  color: white;
+  color: var(--text-color);
   font-size: 80px;
-  font-family: "Genos", sans-serif;
+  font-family: var(--font-genos);
 }
+
 .hero p {
-  color: white;
+  color: var(--text-color);
   font-size: 25px;
-  font-family: "Anybody", sans-serif;
+  font-family: var(--font-anybody);
 }
 
 .hero button {
   width: 200px;
   height: 56px;
-  background-color: #00a8a8;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--text-color);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -54,12 +64,12 @@
 }
 
 .steps h2 {
-  font-family: "Genos", sans-serif;
+  font-family: var(--font-genos);
   font-size: 60px;
 }
 
 .subtitle {
-  font-family: "Genos", sans-serif;
+  font-family: var(--font-genos);
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -92,7 +102,7 @@
 /* big number  */
 
 .big-numbers-container {
-  background-color: #13201f;
+  background-color: var(--secondary-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,14 +116,14 @@
 
 .big-numbers-content h2 {
   font-size: 60px;
-  font-family: "Genos", sans-serif;
-  color: white;
+  font-family: var(--font-genos);
+  color: var(--text-color);
 }
 
 .big-numbers-content p {
   text-align: center;
-  color: white;
-  font-family: "Genos", sans-serif;
+  color: var(--text-color);
+  font-family: var(--font-genos);
   font-size: 20px;
 }
 
@@ -124,7 +134,7 @@
 }
 
 .location {
-  font-family: "Anybody", sans-serif;
+  font-family: var(--font-anybody);
   font-size: 45px;
   text-align: center;
 }
@@ -147,10 +157,10 @@
   width: 10rem;
   font-size: 18px;
   height: 2.5rem;
-  color: white;
-  background-color: #00a8a8;
+  color: var(--text-color);
+  background-color: var(--primary-color);
   border-radius: 10px;
-  font-family: "Anybody", sans-serif;
+  font-family: var(--font-anybody);
 }
 
 /* app container  */
@@ -164,13 +174,13 @@
 
 .app-container h2 {
   font-size: 50px;
-  font-family: "Anybody", sans-serif;
+  font-family: var(--font-anybody);
 }
 
 .app-container p {
   font-size: 25px;
   margin-top: 3rem;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-roboto);
 }
 
 .app-images {
