@@ -1,17 +1,25 @@
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import formImage from "../../assets/images/formImage.png";
+import Menu from "../../components/menu";
+
 import "./style.css";
 
 const ContactForm = () => {
   return (
     <main>
-      <Header />
+      <div className="header">
+        <Header />
+      </div>
+      <div className="menu">
+        <Menu />
+      </div>
+
       <section className="hero-form">
         <div className="hero-content-form">
-          <img src={formImage} alt="" />
+          <img className="image-form" src={formImage} alt="" />
           <h2>
-            Entre em <br /> Contato <span className="span-form">Agora</span>
+            Entre em <br className="br"/> Contato <span className="span-form">Agora</span>
           </h2>
         </div>
       </section>

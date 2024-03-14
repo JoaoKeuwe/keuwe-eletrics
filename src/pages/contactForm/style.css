@@ -67,3 +67,28 @@
   color: white;
   border-radius: 10px;
 }
+
+@media(max-width: 1000px){
+  .image-form {
+    width: 40%;
+    height: auto;
+    padding: 1rem;
+  }
+  .hero-content-form {
+    flex-direction: column;
+  }
+
+ .hero-form h2 {
+  font-size: 30px;
+
+ }
+ .hero-form {
+  padding: 1rem;
+ }
+ .br {
+  display: none;
+ }
+ .input {
+  width: 260px;
+ }
+}

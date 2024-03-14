@@ -137,10 +137,16 @@
   flex-direction: column;
   padding: 1rem;
   gap: 2rem;
+  padding-top: 5rem;
 }
 
 .about-section h2{
   font-size: 35px;
+}
+.about-us-image {
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .assessment-title{
   font-size: 30px;
