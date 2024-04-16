@@ -7,6 +7,7 @@
   --font-roboto: "Roboto", sans-serif;
 }
 
+/* Hero section */
 .hero {
   background-color: var(--secondary-color);
   display: grid;
@@ -19,7 +20,8 @@
   display: none;
 }
 
-.hero h2, .hero p {
+.hero h2,
+.hero p {
   color: var(--text-color);
 }
 
@@ -50,26 +52,66 @@
   flex-direction: column;
   gap: 3rem;
   padding: 10rem;
+  opacity: 0;
+  animation: fadeIn 4s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .image-hero {
   display: flex;
   justify-content: flex-end;
+  animation: slideIn 2s forwards; /* Aplica a animação slideIn */
 }
 
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Main content */
 .main-content {
   padding: 0 10rem;
+  opacity: 0; /* Inicialmente invisível */
+  transform: translateY(20px); /* Inicialmente deslocado para baixo */
+  animation: fadeInUp 1s forwards; /* Aplica a animação fadeInUp */
 }
 
-/* step by step  */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+/* Step by step section */
 .steps {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-.steps h2, .subtitle {
+.steps h2,
+.subtitle {
   font-family: var(--font-genos);
 }
 
@@ -84,12 +126,15 @@
   margin-top: 1rem;
 }
 
+/* Cards in the step by step section */
 .steps-cards {
   display: flex;
+  opacity: 0; /* Inicialmente invisível */
+  transform: translateY(20px); /* Inicialmente deslocado para baixo */
+  animation: fadeInUp 1s forwards; /* Aplica a animação fadeInUp */
 }
 
-/* how works  */
-
+/* How works section */
 .how-works {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -101,14 +146,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  opacity: 0; /* Inicialmente invisível */
+  transform: translateY(20px); /* Inicialmente deslocado para baixo */
+  animation: fadeInUp 1s forwards; /* Aplica a animação fadeInUp */
 }
 
 .image-charging {
   border-radius: 20px;
 }
 
-/* big number  */
-
+/* Big number section */
 .big-numbers-container {
   background-color: var(--secondary-color);
   display: flex;
@@ -122,7 +169,8 @@
   display: flex;
 }
 
-.big-numbers-content h2, .big-numbers-content p {
+.big-numbers-content h2,
+.big-numbers-content p {
   font-family: var(--font-genos);
   color: var(--text-color);
 }
@@ -136,8 +184,7 @@
   font-size: 20px;
 }
 
-/* card cars  */
-
+/* Card cars section */
 .card-cars-section {
   padding: 5rem 6rem;
 }
@@ -172,8 +219,7 @@
   font-family: var(--font-anybody);
 }
 
-/* app container  */
-
+/* App container */
 .app-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -198,7 +244,7 @@
   gap: 4rem;
 }
 
-/* responsivo  */
+/* Responsivo */
 @media (max-width: 1900px) {
   .image-hero img {
     max-width: 100%;
@@ -239,9 +285,11 @@
   .menu {
     display: block;
   }
+
   .header {
     display: none;
   }
+
   .hero {
     grid-template-columns: 1fr;
     padding-top: 4rem;
@@ -283,7 +331,7 @@
   }
 
   .app-images img {
-    width:100px;
+    width: 100px;
   }
 
   .steps h2 {
