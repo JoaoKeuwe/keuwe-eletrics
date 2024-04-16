@@ -6,12 +6,7 @@ Projeto Keuwe Eletrics ⚡
 
 ## (📱Caso esteja pelo celular é so clicar no link abaixo📱)
 
-
-
-
-https://github.com/JoaoKeuwe/ibge-api/assets/91097315/00ecd354-53ec-4341-99d6-708de6b2e750
-
-
+https://github.com/JoaoKeuwe/keuwe-eletrics/assets/91097315/42e835b1-ad88-499b-add1-be69e293185f
 
 ## Sobre o Projeto
 

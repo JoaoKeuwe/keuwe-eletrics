@@ -5,14 +5,15 @@ import twitter from "../../assets/icons/twitter.svg";
 import instagram from "../../assets/icons/instagram.svg";
 import linkedin from "../../assets/icons/linkedin.svg";
 import logo from "../../assets/images/logo-white.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer-container">
       <img src={logo} alt="" />
       <div className="navigation-footer">
-        <a href="/">HOME</a>
-        <a href="/aboutUs">SOBRE</a>
-        <a href="/contato">CONTATO</a>
+        <Link to="/">HOME</Link>
+        <Link to="/aboutUs">SOBRE</Link>
+        <Link to="/contato">CONTATO</Link>
       </div>
       <div>
         <ul className="social-icons">

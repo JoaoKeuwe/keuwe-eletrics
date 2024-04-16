@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 import './style.css'
 const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,9 +18,9 @@ const Menu = () => {
       </div>
       {isOpen && (
         <div className="menu-options">
-          <a href="/" className="option">HOME</a>
-          <a href="/aboutUs" className="option">SOBRE</a>
-          <a href="/contato" className="option">CONTATO</a>
+          <Link to="/" className="option">HOME</Link>
+          <Link to="/aboutUs" className="option">SOBRE</Link>
+          <Link to="/contato" className="option">CONTATO</Link>
         </div>
       )}
     </div>

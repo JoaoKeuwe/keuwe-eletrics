@@ -1,5 +1,6 @@
 import logo from "../../assets/images/logo.png";
 import cart from "../../assets/icons/shopping-cart.png";
+import { Link } from "react-router-dom";
 import './style.css'
 
 const Header = () => {
@@ -9,13 +10,13 @@ const Header = () => {
         <img src={logo} alt="" />
         <ul>
           <li>
-            <a href="/">HOME</a>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <a href="/aboutUs">SOBRE</a>{" "}
+            <Link to="/aboutUs">SOBRE</Link>
           </li>
           <li>
-            <a href="/contato">CONTATO</a>{" "}
+            <Link to="/contato">CONTATO</Link>
           </li>
           <li style={{ display: "flex", alignItems: "center" }}>
             <img style={{ marginRight: "20px" }} src={cart} alt="cart" />
